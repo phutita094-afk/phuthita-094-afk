@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>ระบบยืม-คืนอุปกรณ์กีฬา</title>
+
+<style>
+body {
+    font-family: Arial;
+    background:#f2f2f2;
+    padding:20px;
+}
+.box {
+    background:white;
+    padding:20px;
+    max-width:400px;
+    margin:auto;
+    border-radius:10px;
+}
+input, select, button {
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+button {
+    background:#4CAF50;
+    color:white;
+    border:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h2>ระบบยืม-คืนอุปกรณ์กีฬา</h2>
+
+    <form action="https://docs.google.com/forms/d/e/ใส่ลิงก์ฟอร์ม/formResponse">
+
+        <input type="text" name="entry.111111"
+               placeholder="ชื่อ-นามสกุล" required>
+
+        <input type="text" name="entry.222222"
+               placeholder="รหัสนักเรียน" required>
+
+        <select name="entry.333333" required>
+            <option value="">เลือกอุปกรณ์กีฬา</option>
+            <option>ลูกฟุตบอล</option>
+            <option>ลูกบาสเกตบอล</option>
+            <option>ไม้แบดมินตัน</option>
+            <option>ลูกวอลเลย์บอล</option>
+        </select>
+
+        <select name="entry.444444" required>
+            <option value="">เลือกการทำรายการ</option>
+            <option>ยืม</option>
+            <option>คืน</option>
+        </select>
+
+        <button type="submit">บันทึกข้อมูล</button>
+    </form>
+
+    <hr>
+    <a href="admin.html">สำหรับผู้ดูแล</a>
+</div>
+
+</body>
+  </html>
